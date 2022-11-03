@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.container {
+  height: 100vh;
+  background-color: #e1e9ec;
+  background-image: url("./Assets/Images/remove-bg.png");
+  background-repeat: no-repeat;
+  background-position: center 4em;
+  background-size: contain;
+  position: relative;
+  padding: 0 3vw;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p#contact_number {
+  float: right;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-weight: lighter;
+  font-family: "Cormorant", serif;
+  font-size: 4.5em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1#main_text {
+  position: absolute;
+  line-height: 0.95em;
+  bottom: 10vh;
+}
+.video__new-collection {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+.video__new-collection span {
+  height: 25px;
+  width: 25px;
+  padding: 2px;
+  background-color: #808080;
+  border: 10px solid #c8c8c8;
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease 500ms;
+}
+.video__new-collection span:hover {
+  transition: all ease 500ms;
+  border: 11px solid #c8c8c8;
+}
+.video__new-collection span + p {
+  margin-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  p#contact_number {
+    position: absolute;
+    top: 5vw;
+    right: 4vw;
   }
-  to {
-    transform: rotate(360deg);
+  .container {
+    background-position: center 11em;
+    background-size: contain;
+    transition: all ease 800ms;
+  }
+  h1#main_text {
+    font-size: 2em;
+    line-height: 1.5rem;
+    top: 165px;
+    bottom: unset;
+    transition: all ease 800ms;
+  }
+  .video__new-collection span {
+    height: 20px;
+    width: 20px;
+    padding: 1px;
+    border: 8px solid #c8c8c8;
+    transition: all ease 800ms;
+  }
+  .video__new-collection span svg {
+    height: 15px;
+    width: 15px;
+  }
+  .video__new-collection span + p {
+    margin-left: 10px;
+    font-size: 13px;
   }
 }
