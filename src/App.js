@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React wuth Tosin
+          Learn React with Tosin
         </a>
       </header>
     </div>
