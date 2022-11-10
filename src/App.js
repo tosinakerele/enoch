@@ -1,5 +1,5 @@
 import "./App.css";
-import { HiPlay } from "react-icons/hi2";
+import { BsPlayFill } from "react-icons/bs";
 import NavBar from "./Components/NavBar";
 import { Footer } from "./Components/Footer";
 import { ContactForm } from "./Components/ContactForm";
@@ -15,7 +15,7 @@ function App() {
         <p id="contact_number">0809 984 6538</p>
         <div className="video__new-collection">
           <span>
-            <HiPlay size={20} />
+            <BsPlayFill size={20} />
           </span>
           <p>
             view the new <br /> collection
