@@ -1,5 +1,4 @@
-import React from "react";
-import NavBar from "../NavBar";
+import React from "react"; 
 import "./Footer.style.css";
 import { BiSearch, BiHeart, BiShoppingBag } from "react-icons/bi";
 
@@ -11,16 +10,16 @@ export const Footer = () => {
         <nav>
           <ul>
             <li>
-              <a href="#">catalog</a>{" "}
+              <a href="/">catalog</a>{" "}
             </li>
             <li>
-              <a href="#">delivery</a>
+              <a href="/">delivery</a>
             </li>
             <li>
-              <a href="#">last chance to buy</a>
+              <a href="/">last chance to buy</a>
             </li>
             <li>
-              <a href="#">address</a>
+              <a href="/">address</a>
             </li>
           </ul>
         </nav>
@@ -28,19 +27,19 @@ export const Footer = () => {
         <nav>
           <ul>
             <li>
-              <a href="#">
+              <a href="/">
                 {" "}
                 <BiHeart />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/">
                 {" "}
                 <BiShoppingBag />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/">
                 {" "}
                 <BiSearch />
               </a>
@@ -49,7 +48,7 @@ export const Footer = () => {
         </nav>
       </footer>{" "}
       <div className="footer_grid">
-        <p style={{ color: "#ffffff80" }}>
+        <p style={{ color: "/ffffff80" }}>
           2004-2021 &copy; Mondi-online fashion store for women's clothing. All
           rights reserved. Worldwide delivery.
         </p>

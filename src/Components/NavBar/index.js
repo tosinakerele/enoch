@@ -16,16 +16,16 @@ const NavBar = () => {
       <nav>
         <ul>
           <li>
-            <a href="#">catalog</a>{" "}
+            <a href="/">catalog</a>{" "}
           </li>
           <li>
-            <a href="#">delivery</a>
+            <a href="/">delivery</a>
           </li>
           <li>
-            <a href="#">last chance to buy</a>
+            <a href="/">last chance to buy</a>
           </li>
           <li>
-            <a href="#">address</a>
+            <a href="/">address</a>
           </li>
         </ul>
       </nav>
@@ -43,19 +43,19 @@ const NavBar = () => {
       <nav>
         <ul>
           <li>
-            <a href="#">
+            <a href="/">
               {" "}
               <BiHeart />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               {" "}
               <BiShoppingBag />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               {" "}
               <BiSearch />
             </a>
