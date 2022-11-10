@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 import "./Footer.style.css";
 import { BiSearch, BiHeart, BiShoppingBag } from "react-icons/bi";
 
