@@ -1,11 +1,11 @@
 import "./App.css";
-import { BsPlayFill } from "react-icons/bs";
 import NavBar from "./Components/NavBar";
 import { Footer } from "./Components/Footer";
 import { ContactForm } from "./Components/ContactForm";
 import { Catalog } from "./Components/Catalog";
 import { Logistics } from "./Components/Logistics";
 import { NewCollection } from "./Components/NewCollection";
+import { BiPlay } from "react-icons/bi";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <p id="contact_number">0809 984 6538</p>
         <div className="video__new-collection">
           <span>
-            <BsPlayFill size={20} />
+            <BiPlay size={20} />
           </span>
           <p>
             view the new <br /> collection
