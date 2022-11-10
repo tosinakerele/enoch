@@ -4,8 +4,8 @@ import { Footer } from "./Components/Footer";
 import { ContactForm } from "./Components/ContactForm";
 import { Catalog } from "./Components/Catalog";
 import { Logistics } from "./Components/Logistics";
-import { NewCollection } from "./Components/NewCollection";
-import { BiPlay } from "react-icons/bi";
+import { NewCollection } from "./Components/NewCollection"; 
+import play from "./Assets/Icons/play.png";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <p id="contact_number">0809 984 6538</p>
         <div className="video__new-collection">
           <span>
-            <BiPlay size={20} />
+            <img src={play} alt="" style={{width: 18, height: 18}} />
           </span>
           <p>
             view the new <br /> collection
