@@ -34,6 +34,7 @@
 }
 #catalog div nav li svg {
   position: absolute;
+  right: 0;
   bottom: 0;
 }
 .items_container {
